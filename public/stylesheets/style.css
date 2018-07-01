@@ -1,0 +1,10 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.campForm {
+  width: 30%;
+  margin: 25px auto;
+}
