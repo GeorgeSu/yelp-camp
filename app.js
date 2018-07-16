@@ -9,7 +9,7 @@ var express =	require("express"), // import Express package
 
 mongoose.connect("mongodb://localhost/yelp_camp");
 app.use(bodyParser.urlencoded({extended: true})); // Boilerplate for using BodyParser
-app.use(express.static("public")); // tells view files to use “public” folder as root node for linking to other files (such as stylesheets)
+app.use(express.static(__dirname + "/public")); // tells view files to use “public” folder as root node for linking to other files (such as stylesheets)
 app.set("view engine", "ejs");
 seedDB();   // Seed Database
 
