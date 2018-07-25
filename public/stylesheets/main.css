@@ -11,3 +11,7 @@ img {
   width: 30%;
   margin: 25px auto;
 }
+
+.deleteForm {
+  display: inline;
+}
